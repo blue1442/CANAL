@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/Boat.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/DangerAlert.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/Gate.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/Interact_Button.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/Monitor.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/Monitor_Int.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/BoatApproachingAlert.uasset",
+				"D:/Unreal Projects/Canal/Canal 5.3/Content/CANAL/BluePrints/BoatLights.uasset"
+			]
+		}
+	]
+}
