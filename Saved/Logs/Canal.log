@@ -1552,3 +1552,234 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.01.12-23.21.51:753][  4]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CANAL/BluePrints/BoatPapers.BoatPapers
 [2024.01.12-23.21.51:753][  4]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CANAL/BluePrints/CargoManifest.CargoManifest
 [2024.01.12-23.21.51:753][  4]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CANAL/BluePrints/Game_Instance.Game_Instance
+[2024.01.12-23.25.31:566][470]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.12-23.25.31:583][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.12-23.25.31:583][470]PIE: New page: PIE session: MainLevel (Jan 12, 2024, 11:25:31 AM)
+[2024.01.12-23.25.31:584][470]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.01.12-23.25.31:589][470]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.01.12-23.25.31:623][471]LogPlayLevel: Creating play world package: /Game/CANAL/Maps/UEDPIE_0_MainLevel
+[2024.01.12-23.25.31:651][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027151s)
+[2024.01.12-23.25.31:651][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CANAL/Maps/MainLevel.MainLevel to /Game/CANAL/Maps/UEDPIE_0_MainLevel.MainLevel (0.027196s)
+[2024.01.12-23.25.31:670][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.01.12-23.25.31:671][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.12-23.25.31:671][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.12-23.25.31:672][471]LogAIModule: Creating AISystem for world MainLevel
+[2024.01.12-23.25.31:672][471]LogPlayLevel: PIE: World Init took: (0.001106s)
+[2024.01.12-23.25.31:673][471]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.12-23.25.31:673][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.12-23.25.31:673][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.12-23.25.31:673][471]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.12-23.25.31:673][471]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.12-23.25.31:673][471]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.12-23.25.31:675][471]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.12-23.25.31:740][471]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.12-23.25.31:740][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.12-23.25.31:740][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.12-23.25.31:740][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.12-23.25.31:741][471]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.01.12-23.25.31:741][471]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2024.01.12-23.25.31:743][471]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.01.12-23.25.31:743][471]LogInit: FAudioDevice initialized with ID 5.
+[2024.01.12-23.25.31:743][471]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainLevel'.
+[2024.01.12-23.25.31:743][471]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.01.12-23.25.31:743][471]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.12-23.25.31:746][471]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.12-23.25.31:762][471]LogWorld: Bringing World /Game/CANAL/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.01.12-17.25.31
+[2024.01.12-23.25.31:763][471]LogWorld: Bringing up level for play took: 0.016569
+[2024.01.12-23.25.31:766][471]PIE: Server logged in
+[2024.01.12-23.25.31:766][471]PIE: Play in editor total start time 0.183 seconds.
+[2024.01.12-23.25.34:549][612]LogBlueprintUserMessages: [Interact_Button_C_4] Not Working
+[2024.01.12-23.25.34:551][612]LogBlueprintUserMessages: [MainLevel_C_3] Spawning Boat
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] false
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] Code:ALI-2  Lights:White  Color: White  Cargo:Rice  Pistol  Copper  Beans  Item:  False VIN CODE:  MID151356
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "A" to Substring "LI
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "E" to Substring "LI
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "I" to Substring "LI
+[2024.01.12-23.25.34:560][612]LogBlueprintUserMessages: [Boat_C_0] Boat is Valid!
+[2024.01.12-23.25.34:754][624]LogBlueprintUserMessages: [Interact_Button_C_4] Button Pressed
+[2024.01.12-23.25.36:186][714]LogBlueprintUserMessages: [Interact_Button_C_7] Button Worked
+[2024.01.12-23.25.36:186][714]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.36:374][726]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.36:377][726]LogBlueprintUserMessages: [Interact_Button_C_7] Button Pressed
+[2024.01.12-23.25.36:579][739]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.36:673][745]LogBlueprintUserMessages: [CargoManifest_C_1] X=397.000 Y=489.000 Z=1982.000
+[2024.01.12-23.25.36:673][745]LogBlueprintUserMessages: [CargoManifest_C_1] X=687.119 Y=537.921 Z=1973.175
+[2024.01.12-23.25.36:784][752]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.36:989][764]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.37:189][777]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.37:409][791]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.37:622][805]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.37:836][819]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.38:050][832]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.38:258][845]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.38:459][858]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.38:675][872]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.38:886][886]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.39:097][900]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.39:309][912]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.39:514][925]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.39:719][939]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.39:931][953]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.40:137][967]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.40:348][980]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.41:917][ 81]LogBlueprintUserMessages: [CargoManifest_C_1] Lock Out Prevented
+[2024.01.12-23.25.46:746][393]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] huh
+[2024.01.12-23.25.47:656][449]LogBlueprintUserMessages: [Interact_Button_C_7] Button Worked
+[2024.01.12-23.25.47:656][449]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.47:844][461]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.47:846][461]LogBlueprintUserMessages: [Interact_Button_C_7] Button Pressed
+[2024.01.12-23.25.48:054][474]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.48:263][487]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.48:472][500]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.48:675][514]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.48:886][528]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.49:099][542]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.49:302][555]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.49:508][568]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.49:717][582]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.49:927][596]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.50:129][609]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.50:337][623]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.50:546][637]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.50:758][651]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.50:968][665]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.51:181][679]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.51:389][693]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.25.51:589][706]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.25.51:793][719]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.25.53:304][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-23.25.53:304][816]LogWorld: BeginTearingDown for /Game/CANAL/Maps/UEDPIE_0_MainLevel
+[2024.01.12-23.25.53:304][816]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.12-23.25.53:307][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-23.25.53:313][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.12-23.25.53:319][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-23.25.53:335][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-23.25.53:337][816]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.12-23.25.53:337][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.12-23.25.53:339][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.12-23.25.53:375][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.01.12-23.25.53:431][817]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.12-23.25.53:469][817]LogViewport: Scene viewport resized to 601x218, mode Windowed.
+[2024.01.12-23.26.09:990][919]BlueprintLog: New page: Compile CargoManifest
+[2024.01.12-23.26.10:068][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.12-23.26.10:767][944]LogViewport: Scene viewport resized to 601x218, mode Windowed.
+[2024.01.12-23.26.11:616][972]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.12-23.26.11:636][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.12-23.26.11:636][972]PIE: New page: PIE session: MainLevel (Jan 12, 2024, 11:26:11 AM)
+[2024.01.12-23.26.11:636][972]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.01.12-23.26.11:639][972]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.01.12-23.26.11:673][973]LogPlayLevel: Creating play world package: /Game/CANAL/Maps/UEDPIE_0_MainLevel
+[2024.01.12-23.26.11:698][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025352s)
+[2024.01.12-23.26.11:698][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CANAL/Maps/MainLevel.MainLevel to /Game/CANAL/Maps/UEDPIE_0_MainLevel.MainLevel (0.025394s)
+[2024.01.12-23.26.11:719][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.01.12-23.26.11:725][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.12-23.26.11:725][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.12-23.26.11:726][973]LogAIModule: Creating AISystem for world MainLevel
+[2024.01.12-23.26.11:726][973]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2024.01.12-23.26.11:726][973]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.12-23.26.11:726][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.12-23.26.11:726][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.12-23.26.11:727][973]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.12-23.26.11:727][973]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.12-23.26.11:727][973]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.12-23.26.11:729][973]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.12-23.26.11:788][973]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.12-23.26.11:789][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.12-23.26.11:789][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.12-23.26.11:789][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.12-23.26.11:789][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.12-23.26.11:789][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2024.01.12-23.26.11:791][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.12-23.26.11:791][973]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.12-23.26.11:791][973]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainLevel'.
+[2024.01.12-23.26.11:791][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.12-23.26.11:791][973]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.12-23.26.11:794][973]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.12-23.26.11:809][973]LogWorld: Bringing World /Game/CANAL/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.01.12-17.26.11
+[2024.01.12-23.26.11:809][973]LogWorld: Bringing up level for play took: 0.015240
+[2024.01.12-23.26.11:812][973]PIE: Server logged in
+[2024.01.12-23.26.11:813][973]PIE: Play in editor total start time 0.177 seconds.
+[2024.01.12-23.26.13:846][ 91]LogBlueprintUserMessages: [Interact_Button_C_4] Not Working
+[2024.01.12-23.26.13:847][ 91]LogBlueprintUserMessages: [MainLevel_C_3] Spawning Boat
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] false
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Code:AQO-1  Lights:Yellow  Color: White  Cargo:Gold  Speaker  Wheat  Drone  Item:  False VIN CODE:  IMO 26107657
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "A" to Substring "QO
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "E" to Substring "QO
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "I" to Substring "QO
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Comparing Vowel "O" to Substring "QO
+[2024.01.12-23.26.13:857][ 91]LogBlueprintUserMessages: [Boat_C_0] Boat is Valid!
+[2024.01.12-23.26.14:051][103]LogBlueprintUserMessages: [Interact_Button_C_4] Button Pressed
+[2024.01.12-23.26.15:727][208]LogBlueprintUserMessages: [Interact_Button_C_7] Button Worked
+[2024.01.12-23.26.15:727][208]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.15:920][220]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.15:923][220]LogBlueprintUserMessages: [Interact_Button_C_7] Button Pressed
+[2024.01.12-23.26.16:131][232]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.16:219][238]LogBlueprintUserMessages: [CargoManifest_C_1] X=397.000 Y=489.000 Z=1982.000
+[2024.01.12-23.26.16:220][238]LogBlueprintUserMessages: [CargoManifest_C_1] X=718.015 Y=558.335 Z=1973.175
+[2024.01.12-23.26.16:339][246]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.16:553][260]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.16:766][274]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.16:968][287]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.17:190][300]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.17:391][313]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.17:593][326]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.17:809][340]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.18:017][353]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.18:220][365]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.18:425][377]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.18:632][391]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.18:845][405]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.19:046][418]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.19:253][432]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.19:458][444]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.19:669][458]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.19:873][472]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.20:080][486]LogBlueprintUserMessages: [CargoManifest_C_1] Loading.
+[2024.01.12-23.26.20:289][499]LogBlueprintUserMessages: [CargoManifest_C_1] Loading..
+[2024.01.12-23.26.20:501][513]LogBlueprintUserMessages: [CargoManifest_C_1] Loading...
+[2024.01.12-23.26.21:121][553]LogBlueprintUserMessages: [CargoManifest_C_1] Lock Out Prevented
+[2024.01.12-23.27.44:072][262]LogBlueprintUserMessages: [Boat_C_0] gate is closed, leaving canal
+[2024.01.12-23.28.02:407][317]LogBlueprintUserMessages: [MainLevel_C_3] The Boat Was true
+[2024.01.12-23.28.09:074][337]LogBlueprintUserMessages: [MainLevel_C_3] Spawning Boat
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] false
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Code:AGO-3  Lights:Yellow  Color: Red  Cargo:Speaker  Rice  Wheat  Smart Phone  Projector  Oil  Item:  False VIN CODE:  IMO 41357822
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Comparing Vowel "A" to Substring "GO
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Comparing Vowel "E" to Substring "GO
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Comparing Vowel "I" to Substring "GO
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Comparing Vowel "O" to Substring "GO
+[2024.01.12-23.28.09:079][337]LogBlueprintUserMessages: [Boat_C_1] Boat is Valid!
+[2024.01.12-23.29.25:117][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-23.29.25:117][647]LogWorld: BeginTearingDown for /Game/CANAL/Maps/UEDPIE_0_MainLevel
+[2024.01.12-23.29.25:117][647]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.12-23.29.25:119][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-23.29.25:171][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.12-23.29.25:176][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.12-23.29.25:195][647]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.12-23.29.25:195][647]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.12-23.29.25:195][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.12-23.29.25:197][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.12-23.29.25:223][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.12-23.29.25:229][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.01.12-23.29.25:279][648]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.01.12-23.29.25:284][648]LogViewport: Scene viewport resized to 601x218, mode Windowed.
+[2024.01.12-23.30.22:996][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.12-23.30.24:226][319]LogSlate: Window 'Save Content' being destroyed
+[2024.01.12-23.30.24:236][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.12-23.30.24:415][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CANAL/BluePrints/CargoManifest" FILE="../../../../../../Users/TheDo/Documents/Unreal Projects/Canal_Git/CANAL/Content/CANAL/BluePrints/CargoManifest.uasset" SILENT=true
+[2024.01.12-23.30.24:470][319]LogSavePackage: Moving output files for package: /Game/CANAL/BluePrints/CargoManifest
+[2024.01.12-23.30.24:471][319]LogSavePackage: Moving '../../../../../../Users/TheDo/Documents/Unreal Projects/Canal_Git/CANAL/Saved/CargoManifest79FBB5D249A4E59A5B9A019A44C59FD1.tmp' to '../../../../../../Users/TheDo/Documents/Unreal Projects/Canal_Git/CANAL/Content/CANAL/BluePrints/CargoManifest.uasset'
+[2024.01.12-23.30.24:481][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 872 ms)
+[2024.01.12-23.30.24:483][319]AssetCheck: New page: Asset Save: CargoManifest
+[2024.01.12-23.30.24:483][319]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CANAL/BluePrints/CargoManifest.CargoManifest
