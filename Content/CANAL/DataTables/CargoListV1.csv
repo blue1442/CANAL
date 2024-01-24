@@ -1,28 +1,28 @@
-﻿Row,Product_Id,Name,Type,Weight,Max Quantity,Origin,Price,Total_Price,,
-1,1001,Corn,Food,0.2,1,Turguna,2,0,,Jenori
-2,1002,Wheat,Food,0.1,1,Turguna,1.5,0,,Turguna
-3,1003,Beans,Food,0.5,1,Turguna,4,0,,Ghron
-4,1004,Rice,Food,0.3,1,Ghron,3,0,,Clemeria
-5,1005,Fish,Food,4,1,Clemeria,14,0,,Aomi
-6,1006,Poultry ,Food,3.5,1,Clemeria,8,0,,
-7,1007,Canned Food,Food,2.3,1,Clemeria,7,0,,
-8,1008,Steel,Manufacturing ,20,1,Aomi,32,0,,
-9,1009,Copper,Manufacturing ,14,1,Aomi,14,0,,
-10,1010,Gold,Manufacturing ,15,1,Aomi,120,0,,
-11,1011,Coal,Manufacturing ,16,1,Turguna,28,0,,
-12,1012,Wood,Manufacturing ,13,1,Turguna,16,0,,
-13,1013,Oil,Manufacturing ,40,1,Jenori,95,0,,
-14,1014,Tv,Entertainment,18,1,Turguna,150,0,,
-15,1015,Music Player,Entertainment,2,1,Turguna,200,0,,
-16,1016,Smart Phone,Entertainment,2.3,1,Turguna,250,0,,
-17,1017,Speaker,Entertainment,4,1,Ghron,144,0,,
-18,1018,Projector,Entertainment,4.3,1,Ghron,65,0,,
-19,1019,Pistol,Weapon,5,1,Ghron,700,0,,
-20,1020,Cannon,Weapon,55,1,Ghron,1300,0,,
-21,1021,Missle,Weapon,1000,1,Ghron,2000,0,,
-22,1022,Drone,Weapon,23,1,Clemeria,400,0,,
-23,1023,Sword,Weapon,17,1,Aomi,130,0,,
-24,1024,Large Object,???,32,1,Aomi,200,0,,
-25,1025,H2O2,Weapon,2,1,Turguna,140,0,,
-26,1026,???,???,40,1,Clemeria,400,0,,
-27,1027,???,Weapon,50,1,Jenori,4000,0,,
+﻿Row,Product_Id,Name,Type,Weight,Quantity,Origin,Price,Total_Price
+1,1001,Corn,Food,0.2,10,Turguna,2,0
+2,1002,Wheat,Food,0.1,10,Turguna,1.5,0
+3,1003,Beans,Food,0.5,10,Turguna,4,0
+4,1004,Rice,Food,0.3,10,Ghron,3,0
+5,1005,Fish,Food,4,10,Clemeria,14,0
+6,1006,Poultry ,Food,3.5,10,Clemeria,8,0
+7,1007,Canned Food,Food,2.3,10,Clemeria,7,0
+8,1008,Steel,Manufacturing ,20,10,Aomi,32,0
+9,1009,Copper,Manufacturing ,14,40,Aomi,14,0
+10,1010,Gold,Manufacturing ,15,40,Aomi,120,0
+11,1011,Coal,Manufacturing ,16,40,Turguna,28,0
+12,1012,Wood,Manufacturing ,13,40,Turguna,16,0
+13,1013,Oil,Manufacturing ,40,40,Jenori,95,0
+14,1014,Tv,Entertainment,18,40,Turguna,150,0
+15,1015,Music Player,Entertainment,2,40,Turguna,200,0
+16,1016,Smart Phone,Entertainment,2.3,40,Turguna,250,0
+17,1017,Speaker,Entertainment,4,40,Ghron,144,0
+18,1018,Projector,Entertainment,4.3,40,Ghron,65,0
+19,1019,Pistol,Weapon,5,40,Ghron,700,0
+20,1020,Cannon,Weapon,55,40,Ghron,1300,0
+21,1021,Missle,Weapon,1000,4,Ghron,2000,0
+22,1022,Drone,Weapon,23,4,Clemeria,400,0
+23,1023,Sword,Weapon,17,4,Aomi,130,0
+24,1024,Large Object,???,32,5,Aomi,200,0
+25,1025,H2O2,Weapon,2,1,Turguna,140,0
+26,1026,???,???,40,1,Clemeria,400,0
+27,1027,???,Weapon,50,1,Jenori,4000,0
